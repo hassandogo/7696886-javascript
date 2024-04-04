@@ -22,13 +22,7 @@ function afficherResultat(score, nbMotsProposes) {
  * Cette fonction demande à l'utilisateur de choisir entre "mots" et "phrases" et retourne le choix de l'utilisateur
  * @return {string} : le choix de l'utilisateur, ce choix est nécessairement "mots" ou "phrases
  */
-function choisirPhrasesOuMots() {
-    // Tant que l'utilisateur n'a pas saisi "mots" ou "phrases", on lui redemande de saisir un choix
-    let choix = prompt("Avec quelle liste désirez-vous jouer : 'mots' ou 'phrases' ?")
-    while (choix !== "mots" && choix !== "phrases") {
-        choix = prompt("Avec quelle liste désirez-vous jouer : 'mots' ou 'phrases' ?")
-    }
-    return choix
+
 }
 
 /**
